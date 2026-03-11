@@ -17,7 +17,7 @@ http://ip:port/ltp/<exchange-segment>/<instrument-token-id>
   "LTP": [
     {
       "token": <instrument-token-id>,
-      "ltp": <last-traded-price>,
+      "ltp": <last-traded-price>, /*In Paisa*/
       "ts": <timestamp>
     }
   ]
@@ -52,12 +52,12 @@ http://ip:port/ltps
   "LTP": [
     {
       "token": <instrument-token-id>,
-      "ltp": <last-traded-price>,
+      "ltp": <last-traded-price>, /*In paisa*/
       "ts": <timestamp>
     },
     {
       "token": <instrument-token-id>,
-      "ltp": <last-traded-price>,
+      "ltp": <last-traded-price>, /*In paisa*/
       "ts": <timestamp>
     }
   ]

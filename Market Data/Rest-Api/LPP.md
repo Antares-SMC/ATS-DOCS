@@ -15,8 +15,8 @@ http://ip:port/lpp/<exchange-segment>/<instrument-token-id>
   "LPP": [
     {
       "token": <instrument-token-id>,
-      "lppHigh": <lpp-high>,
-      "lppLow": <lpp-low>,
+      "lppHigh": <lpp-high>, /*In paisa*/
+      "lppLow": <lpp-low>, /*In paisa*/
       "ts": <timestamp>
     }
   ]

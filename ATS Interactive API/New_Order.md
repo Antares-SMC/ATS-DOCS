@@ -20,7 +20,7 @@
   "triggerPrice": "<trigger-price>",
   "side": <side>,
   "quantity": <quantity>,
-  "price": "<price>",
+  "price": "<price>", /*In Rupees*/
   "portfolio-id": "stradle-nifty-atm",
   "appOrderIdentifier": <incremental-number-starting-with-000001>
 }
@@ -62,9 +62,9 @@
     <margin-value>
   ],
   "type": <order-type>,
-  "triggerPrice": "<trigger-price>",
+  "triggerPrice": "<trigger-price>", /*In Rupees*/
   "portfolio-id": "<portfolio-id>",
-  "price": "<price>",
+  "price": "<price>", /*In Rupees*/
   "quantity": <quantity>
 }
 ```
@@ -101,10 +101,10 @@
     <margin-value>
   ],
   "type": <order-type>,
-  "triggerPrice": "<trigger-price>",
+  "triggerPrice": "<trigger-price>", /*In Rupees*/
   "portfolio-id": "<portfolio-id>",
   "remainingQuantity": <remaining-quantity>,
-  "price": "<price>",
+  "price": "<price>", /*In Rupees*/
   "quantity": <quantity>
 }
 ```
@@ -139,10 +139,10 @@
     <margin-value>
   ],
   "type": <order-type>,
-  "triggerPrice": "<trigger-price>",
+  "triggerPrice": "<trigger-price>", /*In Rupees*/
   "portfolio-id": "<portfolio-id>",
   "remainingQuantity": <remaining-quantity>,
-  "fillPrice": "<fill-price>",
+  "fillPrice": "<fill-price>", /*In Rupees*/
   "fillQuantity": <fill-quantity>
 }
 ```
@@ -177,9 +177,9 @@
     <margin-value>
   ],
   "type": <order-type>,
-  "triggerPrice": "<trigger-price>",
+  "triggerPrice": "<trigger-price>", /*In Rupees*/
   "portfolio-id": "<portfolio-id>",
-  "price": "<price>",
+  "price": "<price>", /*In Rupees*/
   "quantity": <quantity>
 }
 ```

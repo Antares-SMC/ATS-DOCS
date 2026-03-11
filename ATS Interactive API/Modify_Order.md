@@ -16,11 +16,11 @@
   },
   "exchange": "<exchange-segment>",
   "token": <instrument-token-id>,
-  "triggerPrice": "<trigger-price>",
+  "triggerPrice": "<trigger-price>", /*In Rupees*/
   "side": <side>,
   "order-type": <order-type>,
   "modifiedQuantity": <quantity>,
-  "modifiedPrice": "<price>",
+  "modifiedPrice": "<price>", /*In Rupees*/
   "portfolio-id": "stradle-nifty-atm",
   "appOrderIdentifier": <incremental-number-starting-with-000001>,
   "exchangeOrderId": <exchange-order-id>,
@@ -62,10 +62,10 @@
     <margin-value>
   ],
   "type": <order-type>,
-  "triggerPrice": "<trigger-price>",
+  "triggerPrice": "<trigger-price>", /*In Rupees*/
   "portfolio-id": "<portfolio-id>",
   "modifiedQuantity": <modified-quantity>,
-  "modifiedPrice": "<modified-price>"
+  "modifiedPrice": "<modified-price>" /*In Rupees*/
 }
 ```
 
@@ -101,10 +101,10 @@
     <margin-value>
   ],
   "type": <order-type>,
-  "triggerPrice": "<trigger-price>",
+  "triggerPrice": "<trigger-price>", /*In Rupees*/
   "portfolio-id": "<portfolio-id>",
   "modifiedQuantity": <modified-quantity>,
-  "modifiedPrice": "<modified-price>"
+  "modifiedPrice": "<modified-price>" /*In Rupees*/
 }
 ```
 

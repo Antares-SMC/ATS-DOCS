@@ -17,10 +17,10 @@ http://ip:port/ohlc/<exchange-segment>/<instrument-token-id>
   "OHLC": [
     {
       "token": <instrument-token-id>,
-      "o": <open-price>,
-      "h": <high-price>,
-      "l": <low-price>,
-      "c": <close-price>,
+      "o": <open-price>, /*In paisa*/
+      "h": <high-price>, /*In paisa*/
+      "l": <low-price>, /*In paisa*/
+      "c": <close-price>, /*In paisa*/
       "v": <volume>,
       "ts": <timestamp>
     }
@@ -57,19 +57,19 @@ http://ip:port/ohlcs
   "OHLC": [
     {
       "token": <instrument-token-id>,
-      "o": <open-price>,
-      "h": <high-price>,
-      "l": <low-price>,
-      "c": <close-price>,
+      "o": <open-price>, /*In paisa*/
+      "h": <high-price>, /*In paisa*/
+      "l": <low-price>, /*In paisa*/
+      "c": <close-price>, /*In paisa*/
       "v": <volume>,
       "ts": <timestamp>
     },
     {
       "token": <instrument-token-id>,
-      "o": <open-price>,
-      "h": <high-price>,
-      "l": <low-price>,
-      "c": <close-price>,
+      "o": <open-price>, /*In paisa*/
+      "h": <high-price>, /*In paisa*/
+      "l": <low-price>, /*In paisa*/
+      "c": <close-price>, /*In paisa*/
       "v": <volume>,
       "ts": <timestamp>
     }

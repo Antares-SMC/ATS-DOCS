@@ -19,7 +19,7 @@
   "side": <side>,
   "order-type": <order-type>,
   "quantity": <quantity>,
-  "price": "<price>",
+  "price": "<price>", /*In Rupees*/
   "portfolio-id": "far-otm-pe",
   "appOrderIdentifier": <app-order-identifier>,
   "exchangeOrderId": <exchange-order-id>,
@@ -59,10 +59,10 @@
     <margin-value>
   ],
   "type": <order-type>,
-  "triggerPrice": "<trigger-price>",
+  "triggerPrice": "<trigger-price>", /*In Rupees*/
   "portfolio-id": "<portfolio-id>",
   "remainingQuantity": <remaining-quantity>,
-  "price": "<price>",
+  "price": "<price>", /*In Rupees*/
   "quantity": <quantity>
 }
 ```
@@ -99,10 +99,10 @@
     <margin-value>
   ],
   "type": <order-type>,
-  "triggerPrice": "<trigger-price>",
+  "triggerPrice": "<trigger-price>", /*In Rupees*/
   "portfolio-id": "<portfolio-id>",
   "remainingQuantity": <remaining-quantity>,
-  "price": "<price>",
+  "price": "<price>", /*In Rupees*/
   "quantity": <quantity>
 }
 ```

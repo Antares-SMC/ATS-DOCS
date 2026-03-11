@@ -83,6 +83,8 @@
 
 **Exchange Segments:** `NSEFO`, `NSECM`, `BSEFO`, etc.
 
+**Bid and Ask Prices :**  In Paisa.
+
 > `TOUCHLINE` contains a touchline object followed by an array of 5 bid/ask depth levels.
 
 ---
@@ -113,3 +115,5 @@
 ```
 
 **Exchange Segments:** `NSEFO`, `NSECM`, `BSEFO`, etc.
+
+**Open High Low and Close Prices :**  In Paisa.

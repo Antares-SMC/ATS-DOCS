@@ -15,8 +15,8 @@ http://ip:port/dpr/<exchange-segment>/<instrument-token-id>
   "DPR": [
     {
       "token": <instrument-token-id>,
-      "dprHigh": <dpr-high>,
-      "dprLow": <dpr-low>,
+      "dprHigh": <dpr-high>, /*In paisa*/
+      "dprLow": <dpr-low>, /*In paisa*/
       "ts": <timestamp>
     }
   ]

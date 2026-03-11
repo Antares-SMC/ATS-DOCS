@@ -33,7 +33,7 @@
     "openOrderCountLeft": 4
   },
   "exchange": "<exchange-segment>",
-  "price": "<price>",
+  "price": "<price>", /*In Rupees*/
   "exchangeTimeStamp": <exchange-timestamp>,
   "exchangeOrderId": <exchange-order-id>,
   "atsOrderId": <ats-order-id>,
